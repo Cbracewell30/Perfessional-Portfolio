@@ -1,0 +1,71 @@
+*{
+
+}
+body {
+    margin: 0;
+}
+/* Header Styling*/
+header{
+    background-color: #5CA7F1;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   position:-webkit-sticky;
+   position: sticky;
+   top: 0;
+   margin: 0 auto 0;
+   height: 100px;
+   text-align: center;
+   z-index: 9999;
+   margin: 0;
+}
+
+header h1{
+    margin: 0;
+    
+}
+
+header nav{
+    margin: 25px 25px 5px 25px;
+margin: 0;
+}
+.cbrace {
+    width: 200PX;
+    height: 200PX;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 5%;
+    border:blanchedalmond;
+    position: absolute;
+    top: 175px;
+    margin-top: 100px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    color:white
+}
+header nav ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 50px 20px;
+}
+.name {
+resize: both;
+text-align: center;
+font-size: x-large;
+margin-top: 50px;
+}
+.name ul{
+    text-align: right;
+}
+    
+h2 {
+text-align: center;
+
+}
