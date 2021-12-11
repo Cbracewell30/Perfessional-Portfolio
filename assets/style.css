@@ -1,5 +1,5 @@
 *{
-    
+
 }
 body {
     margin: 0;
@@ -12,11 +12,11 @@ header{
    position:-webkit-sticky;
    position: sticky;
    top: 0;
-   height: 100px;
+   height: 60px;
    text-align: center;
    z-index: 9999;
-   margin: 50px;
-   background-color: rgba(9, 9, 243, 0.6);
+   margin: 30px 10px 200px 365px;
+   
 }
 
 header h1{
@@ -39,13 +39,14 @@ header nav ul {
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
+    padding-bottom: 0;
     
 }
 header nav ul li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 50px 20px;
+    padding: 0px 50px 60px;
 }
 
 header nav ul li a{
@@ -62,27 +63,50 @@ header nav ul li a{
         text-align: right;
     }
 /* end header styling*/
-
-/* Adding Css to About me*/
-
-.bio {
-    padding: 10px 10px;
+.info{
+    border-top: 5px solid black;
+    height: 1000px;
+    width: auto;
+    margin-left: 365px;
+    margin-top: 77px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
-
-section p {
+/* Adding Css to About me*/
+.info p {
     font-size: large;
-    margin: 5%;
     text-align: center;
+    align-items: center;
+    width:500px;
+    margin-top: 25%;
+
+}
+.Cbracewell{
+    width: 400px;
+    height: 400px;
+    margin: 150px 100px 150px 100px;
 
 }
 
 .heading-label {
     border-bottom: 5px solid black;
-    margin: 5%;
     text-align: center;
     color:gold;
     z-index: 2;
-    font-size:xx-large;
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 1000px;
+    border-top: 5px solid black;
+    border-right: 5px dashed black;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 50px;
 }
+/* End About me styling*/
 
