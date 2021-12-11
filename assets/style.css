@@ -12,12 +12,11 @@ header{
    position:-webkit-sticky;
    position: sticky;
    top: 0;
-   margin: 0 auto 0;
    height: 100px;
    text-align: center;
    z-index: 9999;
-   margin: 0;
-   background-color: blue;
+   margin: 50px;
+   background-color: rgba(9, 9, 243, 0.6);
 }
 
 header h1{
@@ -26,6 +25,7 @@ header h1{
 
 header h1 a {
     color: black;
+    text-decoration:none
 }
 
 header nav{
@@ -33,18 +33,6 @@ header nav{
 margin: 0;
 }
 
-.cbrace {
-    width: 400PX;
-    height: 400PX;
-    text-align: center;
-    display: block;
-    margin: auto;
-    border: 5%;
-    left: 3%;
-    position: absolute;
-    top: 150px;
-    margin-top: 100px;
-}
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -62,26 +50,25 @@ header nav ul li{
 
 header nav ul li a{
     color:gold;
+    text-decoration:none
 }
-.name {
-resize: both;
-text-align: center;
-font-size: x-large;
-margin-top: 50px;
-}
-.name ul{
-    text-align: right;
-}
-    
-h2 {
-text-align: center;
-color:gold;
-z-index: 2
-}
+.start-header {
+    resize: both;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 50px;
+    }
+.start-header ul{
+        text-align: right;
+    }
+/* end header styling*/
+
+/* Adding Css to About me*/
 
 .bio {
     padding: 10px 10px;
 }
+
 
 section p {
     font-size: large;
@@ -92,6 +79,10 @@ section p {
 
 .heading-label {
     border-bottom: 5px solid black;
-    color:;
     margin: 5%;
+    text-align: center;
+    color:gold;
+    z-index: 2;
+    font-size:xx-large;
 }
+
