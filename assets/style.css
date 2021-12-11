@@ -1,6 +1,7 @@
 *{
-
+border: 1px red solid;
 }
+
 body {
     margin: 0;
 }
@@ -8,15 +9,16 @@ body {
 header{
    display: flex;
    justify-content: space-between;
-   flex-wrap: wrap;
    position:-webkit-sticky;
    position: sticky;
    top: 0;
    height: 60px;
    text-align: center;
    z-index: 9999;
-   margin: 30px 10px 200px 365px;
-   
+   margin: 0 10px 200px 365px;
+   background-color: darkblue;
+   resize: both;
+   font-size: x-large;
 }
 
 header h1{
@@ -30,7 +32,6 @@ header h1 a {
 
 header nav{
     margin: 25px 25px 5px 25px;
-margin: 0;
 }
 
 header nav ul {
@@ -53,12 +54,7 @@ header nav ul li a{
     color:gold;
     text-decoration:none
 }
-.start-header {
-    resize: both;
-    text-align: center;
-    font-size: x-large;
-    margin-top: 50px;
-    }
+
 .start-header ul{
         text-align: right;
     }
