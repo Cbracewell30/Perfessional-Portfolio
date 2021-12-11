@@ -1,12 +1,11 @@
 *{
-
+    
 }
 body {
     margin: 0;
 }
 /* Header Styling*/
 header{
-    background-color: #5CA7F1;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -18,27 +17,32 @@ header{
    text-align: center;
    z-index: 9999;
    margin: 0;
+   background-color: blue;
 }
 
 header h1{
     margin: 0;
-    
+}
+
+header h1 a {
+    color: black;
 }
 
 header nav{
     margin: 25px 25px 5px 25px;
 margin: 0;
 }
+
 .cbrace {
-    width: 200PX;
-    height: 200PX;
+    width: 400PX;
+    height: 400PX;
     text-align: center;
     display: block;
     margin: auto;
     border: 5%;
-    border:blanchedalmond;
+    left: 3%;
     position: absolute;
-    top: 175px;
+    top: 150px;
     margin-top: 100px;
 }
 header nav ul {
@@ -47,13 +51,17 @@ header nav ul {
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    color:white
+    
 }
 header nav ul li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 50px 20px;
+}
+
+header nav ul li a{
+    color:gold;
 }
 .name {
 resize: both;
@@ -67,5 +75,23 @@ margin-top: 50px;
     
 h2 {
 text-align: center;
+color:gold;
+z-index: 2
+}
 
+.bio {
+    padding: 10px 10px;
+}
+
+section p {
+    font-size: large;
+    margin: 5%;
+    text-align: center;
+
+}
+
+.heading-label {
+    border-bottom: 5px solid black;
+    color:;
+    margin: 5%;
 }
