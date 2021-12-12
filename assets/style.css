@@ -1,10 +1,11 @@
-*{
+/*{
 border: 1px red solid;
-}
+}*/
 
 body {
-    margin: 0;
+    margin: auto;
 }
+
 /* Header Styling*/
 header{
    display: flex;
@@ -36,16 +37,15 @@ header nav{
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding-bottom: 0;
+   margin-top: -15px
     
 }
+
 header nav ul li{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0px 50px 60px;
 }
@@ -60,13 +60,11 @@ header nav ul li a{
     }
 /* end header styling*/
 .info{
-    border-top: 5px solid black;
     height: 1000px;
     width: auto;
     margin-left: 365px;
     margin-top: 77px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 /* Adding Css to About me*/
@@ -82,7 +80,7 @@ header nav ul li a{
     width: 400px;
     height: 400px;
     margin: 150px 100px 150px 100px;
-
+    align-items: center;
 }
 
 .heading-label {
@@ -100,9 +98,35 @@ header nav ul li a{
     border-right: 5px dashed black;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: 50px;
 }
 /* End About me styling*/
 
+/* My work styling*/
+
+.work-img{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-top: 350px;
+    z-index: 2;
+}
+
+.img-cap{
+position: relative;
+margin: 3px;
+top: -300px;
+z-index: 5;
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        display: inline-flex;
+    }
+
+    header nav {
+        margin: 25px 25px 50px 25px;
+    }
+}
