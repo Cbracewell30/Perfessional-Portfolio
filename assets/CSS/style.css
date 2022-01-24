@@ -16,7 +16,7 @@ header{
    height: 60px;
    text-align: center;
    z-index: 9999;
-   margin: 0 10px 200px 365px;
+   margin: 0 10px 200px 450px;
    background-color: darkblue;
    resize: both;
    font-size: x-large;
@@ -105,20 +105,46 @@ header nav ul li a{
 
 /* My work styling*/
 
-.work-img{
+ .work-img{
     display: flex;
     width: 500px;
     height: 300px;
-    margin-top: 350px;
+   border: 3px solid gold;
     z-index: 2;
-}
+} 
 
-.img-cap{
+/* .img-cap{
 position: relative;
 margin: 3px;
 top: -300px;
 z-index: 5;
+width: 100px;
+height: 60px;
+border: 2px darkblue solid;
 }
+
+.img-cap2{
+    position: relative;
+    margin: 3px;
+    top: -100px;
+    z-index: 5;
+    color: gold;
+    border: 2px darkblue solid;
+    width: 150px;
+    height: 60px;
+    }
+    
+    .img-cap3{
+        position: relative;
+        margin: 3px;
+        top: -100px;
+        z-index: 5;
+        color: gold;
+        border: 2px darkblue solid;
+        width: 150px;
+        height: 60px;
+        } */
+
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
