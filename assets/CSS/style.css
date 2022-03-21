@@ -3,156 +3,128 @@ border: 1px red solid;
 }*/
 
 body {
-    margin: auto;
+  margin: auto;
 }
 
 /* Header Styling*/
-header{
-   display: flex;
-   justify-content: space-between;
-   position:-webkit-sticky;
-   position: sticky;
-   top: 0;
-   height: 60px;
-   text-align: center;
-   z-index: 9999;
-   margin: 0 10px 200px 450px;
-   background-color: darkblue;
-   resize: both;
-   font-size: x-large;
+header {
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 60px;
+  text-align: center;
+  z-index: 9999;
+  margin: 0 10px 200px 450px;
+  background-color: darkblue;
+  resize: both;
+  font-size: x-large;
 }
 
-header h1{
-    margin: 0;
+header h1 {
+  margin: 0;
 }
 
 header h1 a {
-    color: black;
-    text-decoration:none
+  color: black;
+  text-decoration: none;
 }
 
-header nav{
-    margin: 25px 25px 5px 25px;
+header nav {
+  margin: 25px 25px 5px 25px;
 }
 
 header nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-   margin-top: -15px
-    
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  margin-top: -15px;
 }
 
-header nav ul li{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 50px 60px;
+header nav ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 60px;
 }
 
-header nav ul li a{
-    color:gold;
-    text-decoration:none
+header nav ul li a {
+  color: gold;
+  text-decoration: none;
 }
 
-.start-header ul{
-        text-align: right;
-    }
+.start-header ul {
+  text-align: right;
+}
 /* end header styling*/
-.info{
-    height: 1000px;
-    width: auto;
-    margin-left: 365px;
-    margin-top: 77px;
-    display: flex;
-    justify-content: space-around;
+.info {
+  height: 1000px;
+  width: auto;
+  margin-left: 365px;
+  margin-top: 77px;
+  display: flex;
+  justify-content: space-around;
 }
 /* Adding Css to About me*/
 .info p {
-    font-size: large;
-    text-align: center;
-    align-items: center;
-    width:500px;
-    margin-top: 25%;
-
+  font-size: large;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+  margin-top: 25%;
 }
-.Cbracewell{
-    width: 400px;
-    height: 400px;
-    margin: 150px 100px 150px 100px;
-    align-items: center;
+.Cbracewell {
+  width: 400px;
+  height: 400px;
+  margin: 150px 100px 150px 100px;
+  align-items: center;
 }
 
 .heading-label {
-    border-bottom: 5px solid black;
-    text-align: center;
-    color:gold;
-    z-index: 2;
-    margin-left: 20px;
-    padding: 20px;
-    clear: both;
-    float: left;
-    width: 20%;
-    height: 1000px;
-    border-top: 5px solid black;
-    border-right: 5px dashed black;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 50px;
+  border-bottom: 5px solid black;
+  text-align: center;
+  color: gold;
+  z-index: 2;
+  margin-left: 20px;
+  padding: 20px;
+  clear: both;
+  float: left;
+  width: 20%;
+  height: 1000px;
+  border-top: 5px solid black;
+  border-right: 5px dashed black;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
 }
 /* End About me styling*/
 
 /* My work styling*/
 
- .work-img{
-    display: flex;
-    width: 500px;
-    height: 300px;
-   border: 3px solid gold;
-    z-index: 2;
-} 
-
-/* .img-cap{
-position: relative;
-margin: 3px;
-top: -300px;
-z-index: 5;
-width: 100px;
-height: 60px;
-border: 2px darkblue solid;
+.work-img {
+  display: flex;
+  width: 500px;
+  height: 300px;
+  border: 3px solid gold;
+  z-index: 2;
+}
+.allstar {
+  width: 700px;
 }
 
-.img-cap2{
-    position: relative;
-    margin: 3px;
-    top: -100px;
-    z-index: 5;
-    color: gold;
-    border: 2px darkblue solid;
-    width: 150px;
-    height: 60px;
-    }
-    
-    .img-cap3{
-        position: relative;
-        margin: 3px;
-        top: -100px;
-        z-index: 5;
-        color: gold;
-        border: 2px darkblue solid;
-        width: 150px;
-        height: 60px;
-        } */
-
+.img-cap4 {
+  width: 800px;
+}
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    header {
-        display: inline-flex;
-    }
+  header {
+    display: inline-flex;
+  }
 
-    header nav {
-        margin: 25px 25px 50px 25px;
-    }
+  header nav {
+    margin: 25px 25px 50px 25px;
+  }
 }
